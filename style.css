@@ -21,6 +21,7 @@ img{
     display: flex;
     font-family: "Menlo",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     flex-direction: column;
+    height:100 vh;
 }
 
 .header{
