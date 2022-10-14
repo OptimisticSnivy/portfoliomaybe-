@@ -2,6 +2,19 @@ body{
     background-color: #1f2937;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 100px;
+}
+
+img{                    
+    width: 444.1px;     /* original image dimesions:4441x3331 */
+    height: 333.1px; 
+    margin: 100px; 
+}
+
 .container{
     color: white;
     display: flex;
@@ -10,15 +23,49 @@ body{
 }
 
 .header{
-   display: flex;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    
 }
 
-.hero-text0{
+.perlinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-grow: 1;
+    margin: 30px;
+    padding: 10px;
+}
+
+.herotext0{
     font-size:48px;
     font-weight: bold;
+   
+}
+
+.herotext1{
+    width: 300px;
 }
 
 .logo{
     font-weight: bold;
+    flex-grow: 1;
 }
 
+button{
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80px;
+}
