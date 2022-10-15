@@ -2,11 +2,17 @@ body{
     background-color: #1f2937;
 }
 
+a:hover{
+    color: grey;
+    transition: 0.2s;
+}
+
 a{
     text-decoration: none;
-    color: white;
+    color: paleturquoise;
     margin: 10px;
     font-size: 60px;
+
 }
 
 img{                    
@@ -17,7 +23,7 @@ img{
 }
 
 .container{
-    color: white;
+    color: paleturquoise;
     display: flex;
     font-family: "Menlo",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     flex-direction: column;
@@ -29,7 +35,8 @@ img{
     margin-left: 150px;
     padding: 30px;
     display: flex;
-    
+    font-size: 25px;
+
 }
 
 .perlinks{
@@ -63,21 +70,20 @@ img{
     width: 300px;
 }
 
-/*.quote{
+.quote{
     display: flex;
-    background-color: aliceblue;
-    padding-left: 150px;
-    padding-right: 150px;
-    height: 300px;
-    text-align: center;
+    background-color: paleturquoise;
+    padding: 150px;
+    width: auto;
+    height: 100px;
     color: #1f2937;
+    justify-content: center;
 }
 
 .footer{
     padding: 10px;
-    height: 10px;
     text-align: center;
-}*/
+}
 
 .logo{
     font-weight: bold;
