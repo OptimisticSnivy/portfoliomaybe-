@@ -26,8 +26,6 @@ img{
     display: flex;
     font-family: "Menlo",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     flex-direction: column;
-    height:100 vh;
-    width:100 vw;
 }
 
 .header{
@@ -37,7 +35,7 @@ img{
     display: flex;
     font-size: 25px;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
 
 .perlinks{
