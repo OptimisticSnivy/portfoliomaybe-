@@ -91,4 +91,6 @@ button{
     font-weight: bold;
     border-radius: 10px;
     width: 80px;
+    border-style: none;
+    outline-style: none;
 }
