@@ -61,8 +61,7 @@ img{
 
 .herotext0{
     font-size:48px;
-    font-weight: bold;
-   
+    font-weight: bold; 
 }
 
 .herotext1{
@@ -74,6 +73,24 @@ img{
     justify-content: center;
 }
 
+.projectbox{
+    display: flex;
+    justify-content: center;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/turq.jpg);    
+    background-size: 1700px 340px;
+    padding: 100px;
+    margin: 30px;
+    width: 1500px;
+    align-items: center;
+    color: #1f2937;
+    border-radius: 10px;
+}
+
 .quote{
     display: flex;
     flex-direction: column;
@@ -83,6 +100,8 @@ img{
     width: 1500px;
     align-items: center;
     color: #1f2937;
+    border-radius: 10px;
+
 }
 
 .quotetext{
@@ -90,6 +109,24 @@ img{
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 10px;
+}
+
+.box{
+    color:   #1f2937;
+    background-color:paleturquoise;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    margin: 10px; 
+    height: 80px;
+    width: 80px;    
+    border-radius: 10px;
 }
 
 .footer{
@@ -104,6 +141,11 @@ img{
 
 }
 
+.prt{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
 button{
     background-color: #3882f6;
     color: white;
