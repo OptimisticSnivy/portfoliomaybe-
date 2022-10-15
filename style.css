@@ -28,7 +28,7 @@ img{
     flex-direction: column;
 }
 
-.header{
+.header{   
     margin-left: 150px;
     margin-right: 150px;
     padding: 30px;
@@ -57,6 +57,7 @@ img{
     gap: 50px;
     flex-grow: 1;
     padding: 30px;
+   
 }
 
 .herotext0{
