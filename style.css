@@ -158,33 +158,3 @@ button{
     outline-style: none;
 }
 
-.ambox{                            
-    display: flex;   
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color:turquoise;
-    margin-top:12px;
-}                                
-                                  
-.amtxt{                        
-    display: flex;                
-    flex-direction:column;       
-    gap: 50px; 
-    padding: 120px;
-    flex-grow: 1;                 
-    color:#1f2937;
-    margin-left:150px;
-    margin-right:150px;
-}                                 
-                                  
-.amtxt0{                       
-    font-size:48px;               
-    font-weight: bold;            
-}                                 
-
-.amtxt1{        
-     font-size:48px;
-     width: 600px;
-
-}
