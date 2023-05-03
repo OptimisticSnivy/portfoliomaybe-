@@ -24,7 +24,7 @@ img{
 .container{
     color: paleturquoise;
     display: flex;
-    font-family: "Inconsolata",Lato,sans-serif;
+    font-family: "Menlo",'Courier New',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     flex-direction: column;
 }
 
