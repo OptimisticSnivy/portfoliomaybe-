@@ -1,3 +1,3 @@
 # Portfolio website
 
-// Under Construction! Remaking/Refactoring in Svelte!
+Under Construction! Remaking/Refactoring in Svelte!
